@@ -1,8 +1,5 @@
 [build]
 builder = "NIXPACKS"
-buildCommand = "dotnet publish BingoProject.csproj --configuration Release --output out"
 
-[deploy]
-startCommand = "dotnet out/BingoProject.dll"
-restartPolicyType = "ON_FAILURE"
-restartPolicyMaxRetries = 10
+[nixpacks]
+version = "1.12.0"
