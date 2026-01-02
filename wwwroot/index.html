@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo - Generador de Números</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎱 BINGO</h1>
+        
+        <div class="numero-actual">
+            <div class="numero-display" id="numeroActual">-</div>
+        </div>
+
+        <div class="info-contador">
+            <p>Números salidos: <span id="contador">0</span> / 75</p>
+        </div>
+
+        <div class="botones">
+            <button id="btnSiguiente" class="btn btn-primary">Siguiente Número</button>
+            <button id="btnReiniciar" class="btn btn-secondary">Reiniciar Partida</button>
+        </div>
+
+        <div class="historial-container">
+            <h3>Números que han salido:</h3>
+            <div class="historial" id="historial"></div>
+        </div>
+
+        <div id="mensaje" class="mensaje"></div>
+    </div>
+
+    <script src="js/bingo.js"></script>
+</body>
+</html>
