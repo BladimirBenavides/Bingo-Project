@@ -1,8 +1,2 @@
 [build]
-builder = "NIXPACKS"
-
-[build.env]
-NIXPACKS_DOTNET_VERSION = "8.0"
-
-[start]
-cmd = "dotnet BingoProject.dll"
+nixpacksVersion = "1.21.0"
