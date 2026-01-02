@@ -55,7 +55,7 @@ async function reiniciarJuego() {
             historial.innerHTML = '';
             btnSiguiente.disabled = false;
 
-            mostrarMensaje('¡Partida reiniciada! Buena suerte 🍀', 'exito');
+            mostrarMensaje('¡Partida reiniciada...', 'exito');
 
             // Ocultar mensaje después de 2 segundos
             setTimeout(() => {
