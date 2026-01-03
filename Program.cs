@@ -20,7 +20,7 @@ public class BingoGame
     private HashSet<int> numerosUsados = new HashSet<int>();
     private int ultimoNumero = 0;
     private Random random = new Random();
-    private const int NUMERO_MAXIMO = 75; // Cambia a 90 si prefieres bingo de 90 números
+    private const int NUMERO_MAXIMO = 99; // Cambia a 90 si prefieres bingo de 90 números
 
     public int ObtenerSiguienteNumero()
     {
