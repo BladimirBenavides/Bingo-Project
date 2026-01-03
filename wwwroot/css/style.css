@@ -30,6 +30,13 @@ h1 {
     margin-bottom: 30px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
+h2 {
+    text-align: center;
+    color: #667eea;
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 .numero-actual {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
